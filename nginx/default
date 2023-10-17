@@ -5,7 +5,7 @@ server {
     # even if it doesn't exist in this dock.
     root /usr/share/nginx/html;
     index index.php index.html index.html;
-    
+    #use your machine ip after server name
     server_name 15.206.146.26;
 
     location / {
