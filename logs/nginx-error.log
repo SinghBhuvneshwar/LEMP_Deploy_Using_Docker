@@ -1,0 +1,15 @@
+2023/10/17 06:49:03 [notice] 1#1: using the "epoll" event method
+2023/10/17 06:49:03 [notice] 1#1: nginx/1.25.2
+2023/10/17 06:49:03 [notice] 1#1: built by gcc 12.2.0 (Debian 12.2.0-14) 
+2023/10/17 06:49:03 [notice] 1#1: OS: Linux 5.19.0-1025-aws
+2023/10/17 06:49:03 [notice] 1#1: getrlimit(RLIMIT_NOFILE): 1048576:1048576
+2023/10/17 06:49:03 [notice] 1#1: start worker processes
+2023/10/17 06:49:03 [notice] 1#1: start worker process 29
+2023/10/17 06:49:05 [error] 29#29: *1 open() "/usr/share/nginx/html/favicon.ico" failed (2: No such file or directory), client: 223.178.208.20, server: localhost, request: "GET /favicon.ico HTTP/1.1", host: "15.206.146.26", referrer: "http://15.206.146.26/"
+2023/10/17 06:50:35 [notice] 1#1: signal 3 (SIGQUIT) received, shutting down
+2023/10/17 06:50:35 [notice] 29#29: gracefully shutting down
+2023/10/17 06:50:35 [notice] 29#29: exiting
+2023/10/17 06:50:35 [notice] 29#29: exit
+2023/10/17 06:50:35 [notice] 1#1: signal 17 (SIGCHLD) received from 29
+2023/10/17 06:50:35 [notice] 1#1: worker process 29 exited with code 0
+2023/10/17 06:50:35 [notice] 1#1: exit
