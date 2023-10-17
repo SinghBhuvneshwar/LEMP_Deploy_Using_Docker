@@ -2,7 +2,7 @@ server {
     listen  80;
 
     # this path MUST be exactly as docker-compose.fpm.volumes,
-    # even if it doesn't exists in this dock.
+    # even if it doesn't exist in this dock.
     root /usr/share/nginx/html;
     index index.php index.html index.html;
     
